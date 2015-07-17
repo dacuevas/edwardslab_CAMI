@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Check that the numbers for all the levels add up to < 100
+
+perl -ne 'chomp; @a=split /\t/; $c{$a[1]}+=$a[$#a]; END {map {print "$_\t$c{$_}\n"} keys %c}' focus_test_data.tsv
