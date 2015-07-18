@@ -30,9 +30,8 @@ Results file | *k*-mer size | database | fingerprint | Docker image
 
 ## 1st CAMI Challenge Dataset 2 CAMI_medium
 
----|---|---|---|---|
 Results file | *k*-mer size | database | fingerprint | Docker image |
----|---|---|---|---|
+|---|---|---|---|---|
 [cfk7b](cami_mid/cfk7b.out)  | 7 | bacteria genomes |  | [cfk7b](https://registry.hub.docker.com/u/linsalrob/cfk7b/)
 [cfk7d](cami_mid/cfk7d.out)  | 7 | draft genomes |  | [cfk7d](https://registry.hub.docker.com/u/linsalrob/cfk7d/)
 [cfk7bd](cami_mid/cfk7bd.out) | 7 | bacteria and draft genomes |  | [cfk7bd](https://registry.hub.docker.com/u/linsalrob/cfk7bd/)
@@ -44,9 +43,8 @@ Results file | *k*-mer size | database | fingerprint | Docker image |
 ## 1st CAMI Challenge Dataset 3 CAMI_high
 
 
----|---|---|---|---|
 Results file | *k*-mer size | database | fingerprint | Docker image |
----|---|---|---|---|
+|---|---|---|---|---|
 [cfk7b](cami_high/cfk7b.out)  | 7 | bacteria genomes |  | [cfk7b](https://registry.hub.docker.com/u/linsalrob/cfk7b/)
 [cfk7d](cami_high/cfk7d.out)  | 7 | draft genomes |  | [cfk7d](https://registry.hub.docker.com/u/linsalrob/cfk7d/)
 [cfk7bd](cami_high/cfk7bd.out) | 7 | bacteria and draft genomes |  | [cfk7bd](https://registry.hub.docker.com/u/linsalrob/cfk7bd/)
