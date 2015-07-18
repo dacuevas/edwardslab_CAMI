@@ -28,7 +28,7 @@ with open(fof, 'r') as gin:
         count[p[0].strip()]=float(p[1])
 
 # read our pickled data 
-data = load_pickle("/home/taxonomy.p")
+data = load_pickle("/home3/redwards/Cami_Challenge/edwardslab_CAMI/redwards/python/taxonomy.p")
 
 # now we need to go through all levels and sum the results
 
@@ -41,13 +41,14 @@ parent_tax = {}
 
 print("#CAMI Submission for Taxonomic Profiling")
 print("@Version:0.9.2")
-print("@_DATABASE_:" + version)
+# not supported despite documentation
+#print("@_DATABASE_:" + version)
 print("@SampleID:"+ sampleid)
-print("@Ranks:superkingdom|phylum|class|order|family|genus|species\n")
+print("@Ranks:superkingdom|phylum|class|order|family|genus|species|strain\n")
 
 print("@@TAXID\tRANK\tTAXPATH\tTAXPATHSN\tPERCENTAGE")
 
-valid_taxonomy = {'superkingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'}
+valid_taxonomy = {'superkingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species', 'strain'}
 
 for tid in count:
     if tid not in data['taxonomy']:
@@ -76,13 +77,13 @@ for tid in count:
         if current not in parent_tax:
             crank = data['rank'][current]
             if crank not in valid_taxonomy:
-                crank = ""
+                crank = "strain"
             parent_tax[current] = [current, crank, tls, tld]
         levels[current]=levels.get(current, 0) + count[tid]
 
     # check that it has 6 or less significant digits
     if data['taxonomy'][tid][1] not in valid_taxonomy:
-        data['taxonomy'][tid][1] = ""
+        data['taxonomy'][tid][1] = "strain"
     t = "\t".join(data['taxonomy'][tid])
     print("%s\t%0.6f" % (t, count[tid]))
 
