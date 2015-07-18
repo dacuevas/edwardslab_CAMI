@@ -70,3 +70,10 @@ target/
 
 # ipython notebook
 .ipynb_checkpoints/
+
+# some specific files
+# This is the compiled fastq2fasta converter
+redwards/cpp/fastq2fasta
+
+# this is the pickled version of the taxonomy
+redwards/python/taxonomy.p
