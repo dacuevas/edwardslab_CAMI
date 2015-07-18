@@ -40,13 +40,14 @@ parent_tax = {}
 #
 
 print("#CAMI Submission for Taxonomic Profiling")
-print("@Version:" + version)
+print("@Version:0.9.2")
+print("@_DATABASE_:" + version)
 print("@SampleID:"+ sampleid)
-print("@Ranks:superkingdom|phylum|class|order|family|genus|species|strain\n")
+print("@Ranks:superkingdom|phylum|class|order|family|genus|species\n")
 
 print("@@TAXID\tRANK\tTAXPATH\tTAXPATHSN\tPERCENTAGE")
 
-valid_taxonomy = {'superkingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species', 'strain'}
+valid_taxonomy = {'superkingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'}
 
 for tid in count:
     if tid not in data['taxonomy']:

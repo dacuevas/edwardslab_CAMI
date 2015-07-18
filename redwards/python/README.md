@@ -21,4 +21,12 @@ This code just checks our output to see that we are valid. To run it use:
 python check_taxonomy.py ../../../output/results.out
 ```
 
+- cami_pickle.py
 
+This pickles the data from dcuevas and provides a mechanism to load it back in
+
+```
+python2.7 cami_pickle.py dcuevas/taxonomy_out/rank.txt dcuevas/taxonomy_out/taxonomy2_no_doubles.txt
+```
+
+Note: make sure you specify the location of the pickle in your call in focus2result.py
