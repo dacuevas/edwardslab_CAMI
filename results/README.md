@@ -18,9 +18,8 @@ We ignore any line beginning with read because the camiClient prints every line 
 
 ## 1st CAMI Challenge Dataset 1 CAMI_low
 
----|---|---|---|---|
-Results file | *k*-mer size | database | fingerprint | Docker image |
----|---|---|---|---|
+Results file | *k*-mer size | database | fingerprint | Docker image
+|---|---|---|---|---|
 [cfk7b](cami_low/cfk7b.out)  | 7 | bacteria genomes | 6A53F8DF380EC16261216B6B9187BF29141 | [cfk7b](https://registry.hub.docker.com/u/linsalrob/cfk7b/)
 [cfk7d](cami_low/cfk7d.out)  | 7 | draft genomes | 9CC2A4F7773E3F90A743B0E1970188B3141 | [cfk7d](https://registry.hub.docker.com/u/linsalrob/cfk7d/)
 [cfk7bd](cami_low/cfk7bd.out) | 7 | bacteria and draft genomes | C6FE24C88B746306270653C1A522845D141 | [cfk7bd](https://registry.hub.docker.com/u/linsalrob/cfk7bd/)
