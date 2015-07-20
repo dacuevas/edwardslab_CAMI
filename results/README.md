@@ -32,9 +32,9 @@ Results file | *k*-mer size | database | fingerprint | Docker image
 
 Results file | *k*-mer size | database | fingerprint | Docker image |
 |---|---|---|---|---|
-[cfk7b](cami_mid/cfk7b.out)  | 7 | bacteria genomes |  | [cfk7b](https://registry.hub.docker.com/u/linsalrob/cfk7b/)
-[cfk7d](cami_mid/cfk7d.out)  | 7 | draft genomes |  | [cfk7d](https://registry.hub.docker.com/u/linsalrob/cfk7d/)
-[cfk7bd](cami_mid/cfk7bd.out) | 7 | bacteria and draft genomes |  | [cfk7bd](https://registry.hub.docker.com/u/linsalrob/cfk7bd/)
+[cfk7b](cami_mid/cfk7b.out)  | 7 | bacteria genomes | 9CB9AE92D4E230635CCE247EF30AB75D141 | [cfk7b](https://registry.hub.docker.com/u/linsalrob/cfk7b/)
+[cfk7d](cami_mid/cfk7d.out)  | 7 | draft genomes | 3A9F1910D1314B4C8F9C60FC11E66F6E141 | [cfk7d](https://registry.hub.docker.com/u/linsalrob/cfk7d/)
+[cfk7bd](cami_mid/cfk7bd.out) | 7 | bacteria and draft genomes | 34B1A0DDBCADA9086ACA46178A6621A1141 | [cfk7bd](https://registry.hub.docker.com/u/linsalrob/cfk7bd/)
 [cfk8b](cami_mid/cfk8b.out)  | 8 | bacteria genomes | 47214307251FBF5B673E11D5D2CECB48141 | [cfk8b](https://registry.hub.docker.com/u/linsalrob/cfk8b/)
 [cfk8d](cami_mid/cfk8d.out)  | 8 | draft genomes | 06F903274E774941DCF50BAD469232D7141 | [cfk8d](https://registry.hub.docker.com/u/linsalrob/cfk8d/)
 [cfk8bd](cami_mid/cfk8bd.out) | 8 | bacteria and draft genomes | 4E2F00871FA9895D9B8539D05FAF8795141 | [cfk8bd](https://registry.hub.docker.com/u/linsalrob/cfk8bd/)
@@ -45,9 +45,9 @@ Results file | *k*-mer size | database | fingerprint | Docker image |
 
 Results file | *k*-mer size | database | fingerprint | Docker image |
 |---|---|---|---|---|
-[cfk7b](cami_high/cfk7b.out)  | 7 | bacteria genomes |  | [cfk7b](https://registry.hub.docker.com/u/linsalrob/cfk7b/)
-[cfk7d](cami_high/cfk7d.out)  | 7 | draft genomes |  | [cfk7d](https://registry.hub.docker.com/u/linsalrob/cfk7d/)
-[cfk7bd](cami_high/cfk7bd.out) | 7 | bacteria and draft genomes |  | [cfk7bd](https://registry.hub.docker.com/u/linsalrob/cfk7bd/)
+[cfk7b](cami_high/cfk7b.out)  | 7 | bacteria genomes | F1C20ED8E8BD4927BA3DF236228AB462141 | [cfk7b](https://registry.hub.docker.com/u/linsalrob/cfk7b/)
+[cfk7d](cami_high/cfk7d.out)  | 7 | draft genomes | AEBEB46688DA618E86B9797BF007B44C141 | [cfk7d](https://registry.hub.docker.com/u/linsalrob/cfk7d/)
+[cfk7bd](cami_high/cfk7bd.out) | 7 | bacteria and draft genomes | 60D2AB56C98718733D887D997DB012D6141 | [cfk7bd](https://registry.hub.docker.com/u/linsalrob/cfk7bd/)
 [cfk8b](cami_high/cfk8b.out)  | 8 | bacteria genomes | 75EFB1F8FB3EE13BF4DC5E8F47458E1C141 | [cfk8b](https://registry.hub.docker.com/u/linsalrob/cfk8b/)
 [cfk8d](cami_high/cfk8d.out)  | 8 | draft genomes | E89C02471D36FB399E814645C0B86894141 | [cfk8d](https://registry.hub.docker.com/u/linsalrob/cfk8d/)
 [cfk8bd](cami_high/cfk8bd.out) | 8 | bacteria and draft genomes | 2064FEEB59AAFFC379D6D2C6DFB08640141 | [cfk8bd](https://registry.hub.docker.com/u/linsalrob/cfk8bd/)
